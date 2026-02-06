@@ -1,0 +1,14 @@
+name: ai_sprint
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - numpy
+  - tqdm
+  - jupyter
+  - pip
+  - pip:
+    - litellm
+    - pygments
