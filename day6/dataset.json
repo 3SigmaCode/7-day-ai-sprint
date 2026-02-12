@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is RAG?",
+        "ground_truth": "Retrieval Augmented Generation (RAG) is a technique that enhances Large Language Model (LLM) responses by retrieving relevant documents from an external knowledge base and injecting them into the prompt before generation."
+    },
+    {
+        "question": "Why is hybrid retrieval superior to vector-only search?",
+        "ground_truth": "Hybrid retrieval combines dense vector search (semantic understanding/concepts) with sparse keyword search (BM25/precise terms). This balances the ability to find conceptually related content with the precision needed for exact matches like product IDs or acronyms."
+    },
+    {
+        "question": "What is the role of a 'Judge' in an AI system?",
+        "ground_truth": "A 'Judge' is a secondary, often more capable LLM used to evaluate the outputs of a primary AI system. It scores responses based on defined metrics like accuracy, relevance, and completeness, acting as an automated unit test for generative content."
+    },
+    {
+        "question": "What happens when an LLM 'hallucinates'?",
+        "ground_truth": "Hallucination occurs when an LLM generates information that is factually incorrect or nonsensical but presented confidently. In RAG systems, this often happens when the retrieved context is irrelevant or missing, and the model attempts to answer from its training data instead."
+    },
+    {
+        "question": "Why is evaluation crucial for production RAG systems?",
+        "ground_truth": "Unlike traditional software which either works or crashes, LLMs can fail silently by generating plausible but wrong answers. Evaluation metrics provide visibility into system performance, allowing engineers to catch regressions, measure improvements, and ensure reliability before users encounter issues."
+    }
+]
